@@ -7,6 +7,7 @@ import shutil
 FOLDER = "backup"
 IGNORE_DATABASES = ["information_schema", "performance_schema", "pi_backup", "priceinfocenter_test"]
 IGNORE_TABLES = []
+DB_PW = ""
 
 BUCKET = "gendis-zuelch"
 BUCKET_FOLDER = "patlocal"
